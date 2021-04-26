@@ -1,6 +1,10 @@
-# openai
+# OpenAI API
 
-A new Flutter application.
+This prompt creates a question + answer structure for answering questions based on existing knowledge.
+
+## Screen shot
+![alt text](https://github.com/silexcorp/gpt3/blob/master/screenshots/question.png)
+![alt text](https://github.com/silexcorp/gpt3/blob/master/screenshots/answer.png)
 
 ## Getting Started
 

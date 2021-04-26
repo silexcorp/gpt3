@@ -94,7 +94,7 @@ class _HomeState extends State<Home> {
                             scrollController.animateTo(scrollController.position.maxScrollExtent, duration: Duration(milliseconds: 100), curve: Curves.linear);
                             String answer = await widget.openAI.answer(
                                 textController.value.text,
-                                10,
+                                16,
                               [["What is human life expectancy in the United States?","78 years."]],
                               []
                             );
