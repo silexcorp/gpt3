@@ -3,8 +3,8 @@
 This prompt creates a question + answer structure for answering questions based on existing knowledge.
 
 ## Screen shot
-![alt text](https://github.com/silexcorp/gpt3/blob/master/screenshots/question.png)
-![alt text](https://github.com/silexcorp/gpt3/blob/master/screenshots/answer.png)
+<img src="https://github.com/silexcorp/gpt3/blob/master/screenshots/question.png" width="250"> | 
+<img src="https://github.com/silexcorp/gpt3/blob/master/screenshots/answer.png" width="250">
 
 ## Getting Started
 
