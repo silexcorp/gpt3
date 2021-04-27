@@ -11,7 +11,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  List<Chat> chat = new List();
+  List<Chat> chat = [];
   var textController = TextEditingController();
   final scrollController = ScrollController();
 

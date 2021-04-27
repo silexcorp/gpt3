@@ -1,5 +1,4 @@
 
-import 'package:meta/meta.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
@@ -7,7 +6,7 @@ import 'dart:io';
 
 class OpenAI {
   String apiKey;
-  OpenAI({@required this.apiKey});
+  OpenAI({required this.apiKey});
 
   Future<String> answer(
       String question,
@@ -15,7 +14,7 @@ class OpenAI {
       List examples,
       List documents,
       {
-        String examplesContext = "In 2017, U.S. life expectancy was 78.6 years.",
+        String examplesContext = "En 1821, fue su independencia.",
         String searchModel = 'ada',
         String model = 'davinci',
       }
